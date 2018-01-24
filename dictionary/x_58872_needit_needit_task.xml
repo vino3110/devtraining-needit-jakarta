@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="1"/>
+                <element label="Work in Progress" sequence="1" value="2"/>
+                <element label="Closed Complete" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Due Date" max_length="40" name="u_due_date_2" type="due_date"/>
+    </element>
+</database>
